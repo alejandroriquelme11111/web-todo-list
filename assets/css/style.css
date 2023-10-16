@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(235, 184, 31);
+}
+
+.main {
+  background-color: rgb(235, 184, 31);
+  margin-top: 5rem;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 1rem;
+  background-color: bisque;
+  border: #0f0e0e solid 2px;
+  width: 70%;
+  height: 70%;
+}
+
+img {
+  width: 50%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.div1 {
+  text-align: center;
+}
+
+.resultados {
+color: rgb(255, 0, 119);
+}
+.div2 {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.section-tareas {
+
+}
+
+.tareas {
+  display: flex;
+}
+
+.completed {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tareas {
+ 
+  flex-direction: column;
+}
+.caja{
+  display: flex;
+  padding: 0.5rem;
+ 
+}
+
+p{
+  margin: 8px;
+}
+
+button {
+  background-color: rgb(165, 42, 110);
+  color :aliceblue;
+  border-radius: 3rem;
+}
+
+i {
+  color: rgb(243, 13, 13);
+}
+
+i-fa-solid fa-paperclip {
+  color: blue;
+}

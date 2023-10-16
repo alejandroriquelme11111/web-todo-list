@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo list</title>
+    <!--link css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!----fontawesone-->
+    <script
+      src="https://kit.fontawesome.com/bc34976f73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!--todo list-->
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="titulo">
+          <h1>todo list</h1>
+          <hr>
+          <img src="assets/img/todo list.png" alt="" />
+          <h3>agrega una tarea nueva</h3>
+
+        </div>
+
+        <div class="div1">
+          <!--input afregar una tarea-->
+          <input id="agregar" type="text" placeholder="tarea" />
+          <i class="fa-solid fa-paperclip" id="confirmar"></i>
+        </div>
+
+        <div class="div2">
+          <!--para mostrar el resultado-->
+          <div class="resultados">
+            <p>Total: <samp id="total"></samp></p>
+            <p>Realizadas: <span id="realizadas"></span></p>
+          </div>
+
+          <div class="section-tareas">
+            <!--agregar tarea al html-->
+            <div class="tareas" id="tareass">
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--link javascript-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
